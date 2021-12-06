@@ -1,0 +1,28 @@
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: tomato;
+    text-align: center;
+}
+tr,td,th{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    color:red;
+    background-color: burlywood;
+}
+h1{
+    color:black;
+    background-color:yellowgreen
+}
+div{
+    background-color:silver;
+    text-align: center;
+}
+h2{
+    background-color: wheat;
+}
+body{
+    text-align: center;
+}

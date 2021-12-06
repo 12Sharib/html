@@ -1,0 +1,17 @@
+    
+    body {
+        text-align: center;
+        background-color:black;
+        color:white;
+    }
+    h1{
+        font-size: 50px;
+        font-style: oblique;
+    }
+    h2{
+        font-size: 50px;
+        font-style: oblique;
+    }
+    div{
+        border: 2px solid white;
+    }
