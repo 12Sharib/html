@@ -1,0 +1,64 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 43px 17px black;
+   
+}
+.heading{
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline gray;
+}
+#display{
+    /* text-align: right; */
+    line-height: 80px;
+    padding: 16px 8px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ 
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+}
+.btn{
+    /* border: 2px solid black; */
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 0px 0px 3px 1px black;
+    font-size: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+#equal{
+   
+    border: 3px solid black;
+    font-size: 50px;
+    background-color: lightgreen;
+}
+.btn:hover{
+    background-color: gray;
+    transition-duration: 0.2s;
+}
+.btn:active{
+    background-color: green;
+}
+
+#equal:hover{
+    background-color: honeydew;
+}
+.equal{
+    font-size: 70px;
+    height: 70px;
+   background-color:gray;
+ 
+  
+
+}
