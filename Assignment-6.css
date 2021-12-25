@@ -1,0 +1,40 @@
+body{
+    background-color: skyblue;
+}
+.box{
+    float: left;
+    padding-left: 40px;
+    padding-top: 50px;
+    text-transform: capitalize;
+}
+.head-container{
+    height: 400px;
+    background-image: url(https://monalisamsteccentric.github.io/Assignment-5/RAheader1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.middle-container{
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+  
+}
+.left-container{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+.right-container{
+   width: 300px; 
+   height: 600px;
+   padding-left: 20px;
+   float: right;
+   text-align: center;
+   
+}
+.objectives{
+    font-size: 20px;
+}
