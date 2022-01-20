@@ -1,0 +1,32 @@
+*{
+    background-color: gray;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+    
+}
+.btn,.stop{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    margin: 2px;
+    
+}
+.btn:hover,.stop:hover{
+    opacity: 0.9;
+}
+.btn:focus,.stop:focus{
+    outline: none;
+}
