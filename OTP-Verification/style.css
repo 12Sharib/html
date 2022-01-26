@@ -40,6 +40,9 @@ p{
     margin: 2px;
     -moz-apprearance: textfield;
 }
+.code::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
 .border{
     padding: 10px;
     margin: 20px;

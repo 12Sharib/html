@@ -1,0 +1,15 @@
+body{
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+}
+.photos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.photos img{
+    width: 400px;
+    height: max-content;
+    margin: 2px;
+
+}
