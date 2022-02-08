@@ -1,0 +1,405 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Playfair+Display:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+  
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+    /* max-width:max-content; */
+    /* text-align: center; */
+    max-width: max-content;
+    /* background-color:rgb(94, 83, 83) ; */
+    background-color: rgb(8, 8, 8) ;
+    
+}
+
+.header{
+    display: flex;
+    
+}
+.heading h3 {
+   
+    color: gold;
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    letter-spacing: 0.1rem;
+    padding-left: 0.7rem;
+    font-family: 'Dancing Script',cursive;
+} 
+span{
+    color: goldenrod;
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 0.5rem;  
+}
+.header .middle-head{
+    padding: 1rem;
+    position:absolute;
+    left: 25rem;
+    margin-top: o.5rem;
+    font-size: 1.2rem;
+}
+.header .middle-head a{
+    text-decoration: none;
+    color: goldenrod;
+    padding: 2rem;
+    cursor:pointer;
+    font-family: 'Playfair Display', serif;
+}
+.header .options{
+    text-align: right;
+    position: absolute;
+    left:70rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;  
+    font-family: 'Festive', cursive;
+}
+.header input{
+    width: 14rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.header .options .fas{
+    color: goldenrod;
+}
+.header a:hover{
+    text-decoration: 2px underline solid gold;
+    color: gold;
+    font-size: 1.3rem;
+}
+.header .options .fas:hover{
+    font-size: 1.4rem;
+    color: gold;
+}
+.header input:hover{
+    width: 15rem;
+   color: gold;
+}
+/* middle part */
+.middle{
+   margin-top: 100px;
+   display:flex;
+   justify-content: center; 
+   justify-items: center;
+    margin-left: 12rem;
+  
+}
+.middle .middle-part-1 #p1{
+    margin: 0%;
+    font-size: 4rem; 
+    text-align: left;
+    width: 450px;
+    text-align: center;
+    color: gold;
+    font-family:'Dancing Script',cursive;
+     
+   
+}
+.middle .explore {
+    font-size: 1.5rem;
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem;
+    border:2px solid black;
+    /* border-radius: 100%; */
+    margin-left: 2rem;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    color: goldenrod;
+    font-family: 'Playfair Display',serif;
+  
+    
+}
+.middle .middle-part-2 img{
+    width: 800px;
+    height: 700px;
+    
+    /* filter: saturate(130%) contrast(120%);
+     */
+
+}
+.middle .explore:hover{
+   
+    color:rgb(128, 113, 34);
+    text-decoration: 3px underline rgba(255, 217, 0, 0.801);
+}
+.types{
+    display: flex;
+    width: 550px;
+    margin-top: 5rem;
+    font-family: 'Caveat',cursive;
+    color:rgb(209, 32, 32);
+    
+}
+.types h2{
+    font-family: 'Dancing Script',cursive;
+    font-size: 2rem;
+}
+.gold{
+    width: 800px;
+    height: 100px;
+    text-align: left;
+}
+.Silver{
+    text-align: left;
+    margin-left: 2rem;
+}
+.types .gold p{
+    color: goldenrod; 
+    font-family: cursive;
+}
+.types .Silver p{
+    color:goldenrod;
+}
+.middle-part-3{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: max-content; 
+    padding: 2rem;
+    margin-left: 4rem;
+} 
+.middle-part-3 .image img{
+    width: 30rem;
+    height: 40rem;
+    margin: 5rem;
+    filter: saturate(120%);
+    border-radius: 1%;
+}
+.middle-part-3 .details{
+   
+    width: 25rem;
+    margin: 0.5rem;
+}
+.middle-part-3 .details h3{
+    font-family: 'Dancing Script',cursive;
+    font-size: 4rem;
+    color: gold;
+    font-weight: normal;
+    
+    width:auto;
+
+}
+.middle-part-3 .details p{
+    font-size: 1.1rem;
+    font-family: 'caviat',cursive;
+    color: goldenrod;
+    margin-top: 0%;
+}
+.middle-part-3 .button{
+    display: flex;
+    margin: 4rem;
+    letter-spacing: 0.1rem;
+}
+.middle-part-3  label{
+    font-size: 2rem;
+    color: goldenrod;
+    font-family: 'Dancing Script',cursive;
+    margin: 1rem;
+}
+.middle-part-3 .range p{
+    font-family: 'Dancing Script',cursive;
+    font-size: 2rem;
+  
+}
+.middle-part-3 .designs{
+    display: flex;
+    font-family: 'Dancing Script',cursive;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+.middle-part-3 .details .designs .simple{
+    margin: 0.8rem;
+    padding: 0.3rem;
+    background: gold;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.middle-part-3 .details .designs .modern{
+    margin: 0.8rem;
+    padding: 0.3rem;
+}
+.middle-part-3 .details .designs .traditional{
+    margin: 0.8rem;
+    padding: 0.3rem;
+}
+.middle-part-3 .button{
+    margin-top: 0%;
+}
+.middle-part-3 .button button{
+    width: max-content;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(241, 176, 10);
+    font-family: 'Playfair',cursive;
+    border-radius: 1rem;
+}
+.middle-part-3 .button p{
+    margin: 0.8rem;
+}
+.middle-part-4{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    width: max-content;
+}
+.middle-part-4 .image img{
+    width: 60rem;
+    height: 40rem;
+    margin-left: 5rem;
+}
+.middle-part-4 .details{
+    width: max-content;
+    height: fit-content;
+    margin: 2rem;
+    padding: 1rem;
+}
+.middle-part-4 .details h3{
+    font-size: 4rem;
+    font-family: 'Dancing Script',cursive;
+    font-weight: normal;
+    color: gold;
+}
+.middle-part-4 .details p{
+    width: 20rem;
+    font-family: 'Playfair',cursive;
+    color: goldenrod;
+}
+.middle-part-4 .details label{
+    font-size: 2rem;
+    font-family: 'Dancing Script',cursive;
+    font-weight: bolder;
+    color:rgb(209, 32, 32);
+}
+.middle-part-5{
+    display: flex;
+    text-align: center;
+    margin-left: 10rem;
+    width: max-content;
+}
+.middle-part-5 .image img{
+    width: 50rem;
+    height: 40rem;
+}
+.middle-part-5 .details{
+    margin: 5rem;
+}
+.middle-part-5 .details h3{
+    font-size: 4rem;
+    font-family: 'Dancing Script',cursive;
+    color: gold;
+}
+.middle-part-5 .details p{
+    width: 20rem;
+    text-align: left;
+    font-family: 'playfair',cursive;
+    color: goldenrod;
+}
+.middle-part-6{
+    display: flex;
+    justify-content: center;
+    margin-left: 13rem;
+    width: max-content;
+}
+.middle-part-6 .details{
+    margin: 3rem;
+}
+.middle-part-6 .image img{
+    width: 50rem;
+    height:40rem;
+    margin-left: 6rem;
+  
+}
+.middle-part-6 .details h3{
+    font-size: 5rem;
+    font-family: 'Dancing Script',cursive;
+    color: gold;
+    font-weight: normal;
+}
+.middle-part-6 .details p{
+    width: 20rem;
+    color: goldenrod;
+    font-family: 'playfair',cursive;
+}
+.middle-part-6 .details button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 2rem;
+    background-color: goldenrod;
+    font-family: 'playfair',cursive;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+.companies{
+    max-width: 2000px;
+    display: grid;
+    justify-content: center;
+    margin: 1.5rem;
+    
+}
+
+.companies h3{
+    font-size: 3rem;
+    font-family: 'Dancing Script',cursive;
+    font-weight: normal;
+    margin: 0%;
+    color: gold;
+}
+.companies p{
+    font-size: 1.5rem;
+    font-family: 'playfair',cursive;
+    color: goldenrod;
+}
+.about{
+    display: grid;
+    max-width: 70rem;
+    margin-left: 6rem;
+  
+}
+.about h3{
+    font-size: 3rem;
+    font-family: 'Dancing Script',cursive;
+    color: gold;
+    font-weight: normal;
+    justify-self: center;
+    margin: 0%;
+}
+.about p{
+    margin-top: 1rem;
+    justify-self: center;
+    width:40rem;
+    font-family: 'playfair',cursive;
+    color: goldenrod;
+}
+.social{
+    display: flex;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    position:sticky;
+    text-align: left;
+    color: white;
+}
+.social i{
+    padding: 0.5rem;
+}
+img:hover{
+    box-shadow: 1.5px 1.5px 1.5px snow;
+    filter: saturate(110%) contrast(110%);
+}
+i:hover{
+    color: gold;
+}
+.heading h3:hover{
+    filter: contrast(120%) saturate(250%);
+}
