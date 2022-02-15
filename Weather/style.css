@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: capitalize;
+   
+}
+.container{
+    background: #222d22;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 420px;
+}
+.search input{
+    height: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    color: white;
+    background: #222;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+button{
+    width: 2rem;
+    height: 2rem; 
+    background: #222;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    background: #7c7c7c2b;
+    color: white;
+}
+.city{
+    font-size: 3rem;
+}
+.temp{
+    font-size: 2.5rem;
+}.weather,.humidity,.wind-speed{
+    font-size:1.2rem ;
+}
