@@ -28,7 +28,7 @@ document.querySelector(".search button")
     weather.search()
 });
 document.querySelector(".search-bar")
-.addEventListener("keyup",function(event){
+.addEventListener("keyup",function(event){ 
     if(event.key == "Enter"){
         weather.search()
     } 

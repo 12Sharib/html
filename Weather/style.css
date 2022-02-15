@@ -15,7 +15,7 @@ body{
 }
 .search input{
     height: 2rem;
-    width: 80%;
+    width: 80%; 
     border-radius: 2rem;
     color: white;
     background: #222;
