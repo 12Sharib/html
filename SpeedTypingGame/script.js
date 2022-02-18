@@ -1,22 +1,61 @@
-const RANDOM_QUOTE_API_URL = "https://api.quotable.io/random"
+const RANDOM_QUOTE_API_URL = "https://api.quotable.io/random";
 const quotedisplayElement = document.getElementById('quote-display')
 const quoteInputElement = document.getElementById('quoteInput')
+const timerElement = document.getElementById('timer')
 
-console.log("1")
+quoteInputElement.addEventListener('input',()=>{
+   const arrayQuote = quotedisplayElement.querySelectorAll('span')
+   const arrayValue = quoteInputElement.value.split('')
 
-function randomQuote(){   
-  return fetch(RANDOM_QUOTE_API_URL)
-    .then(response => response.json())
+   let correct = true
+   arrayQuote.forEach((characterSpan, index)=>{
+       const character = arrayValue[index]
+       if(character == null){
+           characterSpan.classList.remove('correct')
+           characterSpan.classList.remove('incorrect')
+           correct = false
+       }else if(character === characterSpan.innerText){
+           characterSpan.classList.add('correct')
+           characterSpan.classList.remove('incorrect')
+       }else{
+           characterSpan.classList.remove('correct')
+           characterSpan.classList.add('incorrect')
+           correct = false
+       }
+   })
+   if(correct) 
+
+   newQuote()
+})
+
+function getRandomQuote() {   
+    return fetch(RANDOM_QUOTE_API_URL)
+    .then(Response => Response.json())
     .then(data => data.content)
-   
 }
-
-async function getnextQuote(){
-    const quote = await randomQuote()
-    // console.log(quote)
-    quotedisplayElement.innerText = quote
+async function newQuote(){
+    const quote = await getRandomQuote(); 
+    quotedisplayElement.innerText = '';
+    // quotedisplayElement.innerText = quote
     quote.split('').forEach(character => {
         const characterSpan = document.createElement('span')
-        
+        characterSpan.innerText = character
+        quotedisplayElement.appendChild(characterSpan)
     })
+    // quoteInputElement.value = null
+    startTimer()
 }
+let startTime
+function startTimer(){
+    timerElement.innerText = 0
+    startTime = new Date()
+    console.log(startTime)
+    setInterval(()=>{
+        timer.innerText = getTimerTime()
+
+    },1000)
+}
+function getTimerTime(){
+    return Math.floor((new Date() - startTime)/1000)
+}
+newQuote()

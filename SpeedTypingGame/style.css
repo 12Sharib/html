@@ -45,3 +45,9 @@ body, .quoteInput{
 #quoteInput:focus{
     border-color:red;
 }
+.correct{
+    color: green;
+}
+.incorrect{
+    color: red;
+}
