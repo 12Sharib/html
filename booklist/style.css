@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .name{
+    font-size:  2rem;
+    color: rgb(238, 27, 27);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: gray
+}
+form input{
+    height: 2em;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: black;
+   border: 2px solid gray;
+   border-radius: 1rem;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: none; 
+}
+.submit:active{
+    background-color: gray;
+}
+ th{
+    padding:  0.6rem;
+    font-size: 1.5rem;
+    background-color: gray;
+}
